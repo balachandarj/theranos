@@ -1,0 +1,8 @@
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Infrastructure\bin\Debug\Reservation.Infrastructure.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Infrastructure\bin\Debug\Reservation.Infrastructure.pdb
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Infrastructure\bin\Debug\Microsoft.Practices.Prism.PubSubEvents.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Infrastructure\obj\Debug\Reservation.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Infrastructure\obj\Debug\Reservation.Infrastructure.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Infrastructure\obj\Debug\Reservation.Infrastructure.pdb
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Infrastructure\bin\Debug\Reservation.Client.Service.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Infrastructure\bin\Debug\Reservation.Client.Service.pdb

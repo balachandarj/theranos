@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/Reservation.Common" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Reservation.Common" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:65238/ReservationService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="http://localhost:65238/ReservationService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="BookingDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BookingDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="BookingId" type="ser:guid" />
+      <xs:element minOccurs="0" name="CheckInTime" type="ser:duration" />
+      <xs:element minOccurs="0" name="CustomerDetail" nillable="true" type="tns:Person" />
+      <xs:element minOccurs="0" name="TableId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BookingDetail" nillable="true" type="tns:BookingDetail" />
+  <xs:complexType name="Person">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EmailId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MobileNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Occupants" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Person" nillable="true" type="tns:Person" />
+  <xs:complexType name="ServiceResponseOfboolean">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="ServiceResponseOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/Reservation.Common" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="boolean" Namespace="http://www.w3.org/2001/XMLSchema" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OperationSuccess" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Result" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ServiceMessage" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ValidationMessages" nillable="true" type="q1:ArrayOfstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ServiceResponseOfboolean" nillable="true" type="tns:ServiceResponseOfboolean" />
+  <xs:complexType name="ServiceResponseOfArrayOfTableAvailablityDetail51cJB1Cc">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="ServiceResponseOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/Reservation.Common" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="ArrayOfTableAvailablityDetail" Namespace="http://schemas.datacontract.org/2004/07/Reservation.Common" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OperationSuccess" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Result" nillable="true" type="tns:ArrayOfTableAvailablityDetail" />
+      <xs:element minOccurs="0" name="ServiceMessage" nillable="true" type="xs:string" />
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ValidationMessages" nillable="true" type="q2:ArrayOfstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ServiceResponseOfArrayOfTableAvailablityDetail51cJB1Cc" nillable="true" type="tns:ServiceResponseOfArrayOfTableAvailablityDetail51cJB1Cc" />
+  <xs:complexType name="ArrayOfTableAvailablityDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TableAvailablityDetail" nillable="true" type="tns:TableAvailablityDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTableAvailablityDetail" nillable="true" type="tns:ArrayOfTableAvailablityDetail" />
+  <xs:complexType name="TableAvailablityDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IsAvailable" type="xs:boolean" />
+      <xs:element minOccurs="0" name="MaxOccupancy" type="xs:int" />
+      <xs:element minOccurs="0" name="TableId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TableAvailablityDetail" nillable="true" type="tns:TableAvailablityDetail" />
+  <xs:complexType name="ServiceResponseOfArrayOfBookingDetail51cJB1Cc">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="ServiceResponseOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/Reservation.Common" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="ArrayOfBookingDetail" Namespace="http://schemas.datacontract.org/2004/07/Reservation.Common" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OperationSuccess" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Result" nillable="true" type="tns:ArrayOfBookingDetail" />
+      <xs:element minOccurs="0" name="ServiceMessage" nillable="true" type="xs:string" />
+      <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ValidationMessages" nillable="true" type="q3:ArrayOfstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ServiceResponseOfArrayOfBookingDetail51cJB1Cc" nillable="true" type="tns:ServiceResponseOfArrayOfBookingDetail51cJB1Cc" />
+  <xs:complexType name="ArrayOfBookingDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BookingDetail" nillable="true" type="tns:BookingDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBookingDetail" nillable="true" type="tns:ArrayOfBookingDetail" />
+  <xs:complexType name="ServiceResponseOfBookingDetail51cJB1Cc">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="ServiceResponseOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/Reservation.Common" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="BookingDetail" Namespace="http://schemas.datacontract.org/2004/07/Reservation.Common" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OperationSuccess" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Result" nillable="true" type="tns:BookingDetail" />
+      <xs:element minOccurs="0" name="ServiceMessage" nillable="true" type="xs:string" />
+      <xs:element xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ValidationMessages" nillable="true" type="q4:ArrayOfstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ServiceResponseOfBookingDetail51cJB1Cc" nillable="true" type="tns:ServiceResponseOfBookingDetail51cJB1Cc" />
+  <xs:complexType name="ServiceResponseOfArrayOfBusinessHour51cJB1Cc">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="ServiceResponseOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/Reservation.Common" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="ArrayOfBusinessHour" Namespace="http://schemas.datacontract.org/2004/07/Reservation.Common" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OperationSuccess" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Result" nillable="true" type="tns:ArrayOfBusinessHour" />
+      <xs:element minOccurs="0" name="ServiceMessage" nillable="true" type="xs:string" />
+      <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ValidationMessages" nillable="true" type="q5:ArrayOfstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ServiceResponseOfArrayOfBusinessHour51cJB1Cc" nillable="true" type="tns:ServiceResponseOfArrayOfBusinessHour51cJB1Cc" />
+  <xs:complexType name="ArrayOfBusinessHour">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BusinessHour" nillable="true" type="tns:BusinessHour" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBusinessHour" nillable="true" type="tns:ArrayOfBusinessHour" />
+  <xs:complexType name="BusinessHour">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CloseTime" type="ser:duration" />
+      <xs:element minOccurs="0" name="DayOfTheWeek" type="xs:int" />
+      <xs:element minOccurs="0" name="OpenTime" type="ser:duration" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BusinessHour" nillable="true" type="tns:BusinessHour" />
+  <xs:complexType name="ServiceResponseOfArrayOfTableDetail51cJB1Cc">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="ServiceResponseOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/Reservation.Common" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="ArrayOfTableDetail" Namespace="http://schemas.datacontract.org/2004/07/Reservation.Common" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OperationSuccess" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Result" nillable="true" type="tns:ArrayOfTableDetail" />
+      <xs:element minOccurs="0" name="ServiceMessage" nillable="true" type="xs:string" />
+      <xs:element xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ValidationMessages" nillable="true" type="q6:ArrayOfstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ServiceResponseOfArrayOfTableDetail51cJB1Cc" nillable="true" type="tns:ServiceResponseOfArrayOfTableDetail51cJB1Cc" />
+  <xs:complexType name="ArrayOfTableDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TableDetail" nillable="true" type="tns:TableDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTableDetail" nillable="true" type="tns:ArrayOfTableDetail" />
+  <xs:complexType name="TableDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="MaxOccupancy" type="xs:int" />
+      <xs:element minOccurs="0" name="TableId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TableDetail" nillable="true" type="tns:TableDetail" />
+  <xs:complexType name="ServiceResponseOfBusinessHour51cJB1Cc">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="ServiceResponseOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/Reservation.Common" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="BusinessHour" Namespace="http://schemas.datacontract.org/2004/07/Reservation.Common" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OperationSuccess" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Result" nillable="true" type="tns:BusinessHour" />
+      <xs:element minOccurs="0" name="ServiceMessage" nillable="true" type="xs:string" />
+      <xs:element xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ValidationMessages" nillable="true" type="q7:ArrayOfstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ServiceResponseOfBusinessHour51cJB1Cc" nillable="true" type="tns:ServiceResponseOfBusinessHour51cJB1Cc" />
+</xs:schema>

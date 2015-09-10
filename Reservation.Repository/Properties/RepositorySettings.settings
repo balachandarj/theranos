@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Reservation.Repository.Properties" GeneratedClassName="RepositorySettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BusinessHoursDetail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">[{"DayOfTheWeek":0,"OpenTime":"09:00:00","CloseTime":"23:00:00"},{"DayOfTheWeek":1,"OpenTime":"10:00:00","CloseTime":"22:00:00"},{"DayOfTheWeek":2,"OpenTime":"10:00:00","CloseTime":"22:00:00"},{"DayOfTheWeek":3,"OpenTime":"10:00:00","CloseTime":"22:00:00"},{"DayOfTheWeek":4,"OpenTime":"10:00:00","CloseTime":"22:00:00"},{"DayOfTheWeek":5,"OpenTime":"10:00:00","CloseTime":"22:00:00"},{"DayOfTheWeek":6,"OpenTime":"09:00:00","CloseTime":"23:00:00"}]</Value>
+    </Setting>
+    <Setting Name="TableDetail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">[{"TableId":1,"MaxOccupancy":2},{"TableId":2,"MaxOccupancy":2},{"TableId":3,"MaxOccupancy":4},{"TableId":4,"MaxOccupancy":4},{"TableId":5,"MaxOccupancy":4},{"TableId":6,"MaxOccupancy":4},{"TableId":7,"MaxOccupancy":4},{"TableId":8,"MaxOccupancy":4},{"TableId":9,"MaxOccupancy":6},{"TableId":10,"MaxOccupancy":6}]</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

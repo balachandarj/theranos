@@ -1,0 +1,5 @@
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Client.Service\bin\Debug\Reservation.Client.Service.dll.config
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Client.Service\bin\Debug\Reservation.Client.Service.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Client.Service\bin\Debug\Reservation.Client.Service.pdb
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Client.Service\obj\Debug\Reservation.Client.Service.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Client.Service\obj\Debug\Reservation.Client.Service.pdb

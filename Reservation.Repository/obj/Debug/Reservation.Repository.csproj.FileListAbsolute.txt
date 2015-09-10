@@ -1,0 +1,40 @@
+C:\Balachandar\Learnings\WPF\Reservation\Reservation.Repository\obj\Debug\Reservation.Repository.csprojResolveAssemblyReference.cache
+C:\Balachandar\Learnings\WPF\Reservation\Reservation.Repository\bin\Debug\Reservation.Repository.dll
+C:\Balachandar\Learnings\WPF\Reservation\Reservation.Repository\bin\Debug\Reservation.Repository.pdb
+C:\Balachandar\Learnings\WPF\Reservation\Reservation.Repository\bin\Debug\Reservation.Common.dll
+C:\Balachandar\Learnings\WPF\Reservation\Reservation.Repository\bin\Debug\Reservation.Common.pdb
+C:\Balachandar\Learnings\WPF\Reservation\Reservation.Repository\obj\Debug\Reservation.Repository.dll
+C:\Balachandar\Learnings\WPF\Reservation\Reservation.Repository\obj\Debug\Reservation.Repository.pdb
+C:\Balachandar\Learnings\WPF\Reservation\Reservation.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Balachandar\Learnings\WPF\Reservation\Reservation.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Balachandar\Learnings\WPF\Reservation\Reservation.Repository\bin\Debug\Resources\Tables.json
+C:\Balachandar\Learnings\WPF\Reservation\Reservation.Repository\bin\Debug\Resources\BusinessHours.json
+C:\Balachandar\Learnings\WPF\Reservation\Reservation.Repository\bin\Debug\Reservation.Repository.dll.config
+C:\Users\jeganbx\Downloads\Reservation\Reservation\Reservation.Repository\bin\Debug\Resources\BusinessHours.json
+C:\Users\jeganbx\Downloads\Reservation\Reservation\Reservation.Repository\bin\Debug\Resources\Tables.json
+C:\Users\jeganbx\Downloads\Reservation\Reservation\Reservation.Repository\bin\Debug\Reservation.Repository.dll.config
+C:\Users\jeganbx\Downloads\Reservation\Reservation\Reservation.Repository\bin\Debug\Reservation.Repository.dll
+C:\Users\jeganbx\Downloads\Reservation\Reservation\Reservation.Repository\bin\Debug\Reservation.Repository.pdb
+C:\Users\jeganbx\Downloads\Reservation\Reservation\Reservation.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jeganbx\Downloads\Reservation\Reservation\Reservation.Repository\bin\Debug\Reservation.Common.dll
+C:\Users\jeganbx\Downloads\Reservation\Reservation\Reservation.Repository\bin\Debug\Reservation.Common.pdb
+C:\Users\jeganbx\Downloads\Reservation\Reservation\Reservation.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jeganbx\Downloads\Reservation\Reservation\Reservation.Repository\obj\Debug\Reservation.Repository.csprojResolveAssemblyReference.cache
+C:\Users\jeganbx\Downloads\Reservation\Reservation\Reservation.Repository\obj\Debug\Reservation.Repository.dll
+C:\Users\jeganbx\Downloads\Reservation\Reservation\Reservation.Repository\obj\Debug\Reservation.Repository.pdb
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository\bin\Debug\Reservation.Repository.dll.config
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository\bin\Debug\Reservation.Repository.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository\bin\Debug\Reservation.Repository.pdb
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository\bin\Debug\nunit.core.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository\bin\Debug\nunit.core.interfaces.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository\bin\Debug\nunit.util.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository\bin\Debug\NUnit.VisualStudio.TestAdapter.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository\bin\Debug\Reservation.Common.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository\bin\Debug\Reservation.Common.pdb
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository\obj\Debug\Reservation.Repository.csprojResolveAssemblyReference.cache
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository\obj\Debug\Reservation.Repository.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository\obj\Debug\Reservation.Repository.pdb
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository\bin\Debug\Reservation.Repository.Interface.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository\bin\Debug\Reservation.Repository.Interface.pdb

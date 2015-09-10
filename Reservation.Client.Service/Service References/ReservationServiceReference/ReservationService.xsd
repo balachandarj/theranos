@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:65238/ReservationService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Reservation.Common" />
+  <xs:import schemaLocation="http://localhost:65238/ReservationService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:element name="BookTableReservation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Reservation.Common" minOccurs="0" name="bookingDetail" nillable="true" type="q1:BookingDetail" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BookTableReservationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Reservation.Common" minOccurs="0" name="BookTableReservationResult" nillable="true" type="q2:ServiceResponseOfboolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateTableReservation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Reservation.Common" minOccurs="0" name="bookingDetail" nillable="true" type="q3:BookingDetail" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateTableReservationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Reservation.Common" minOccurs="0" name="UpdateTableReservationResult" nillable="true" type="q4:ServiceResponseOfboolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CancelTableReservation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="bookingDate" type="xs:dateTime" />
+        <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/" minOccurs="0" name="bookingId" type="q5:guid" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CancelTableReservationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Reservation.Common" minOccurs="0" name="CancelTableReservationResult" nillable="true" type="q6:ServiceResponseOfboolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CancelAllTableReservations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="bookingDate" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CancelAllTableReservationsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/Reservation.Common" minOccurs="0" name="CancelAllTableReservationsResult" nillable="true" type="q7:ServiceResponseOfboolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTableAvailablity">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="bookingDate" type="xs:dateTime" />
+        <xs:element xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/" minOccurs="0" name="checkInTime" type="q8:duration" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTableAvailablityResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/Reservation.Common" minOccurs="0" name="GetTableAvailablityResult" nillable="true" type="q9:ServiceResponseOfArrayOfTableAvailablityDetail51cJB1Cc" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBookingDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="bookingDate" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBookingDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/Reservation.Common" minOccurs="0" name="GetBookingDetailsResult" nillable="true" type="q10:ServiceResponseOfArrayOfBookingDetail51cJB1Cc" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBookingDetail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="bookingDate" type="xs:dateTime" />
+        <xs:element xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/" minOccurs="0" name="bookingId" type="q11:guid" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBookingDetailResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/Reservation.Common" minOccurs="0" name="GetBookingDetailResult" nillable="true" type="q12:ServiceResponseOfBookingDetail51cJB1Cc" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBusinessHours">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBusinessHoursResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/Reservation.Common" minOccurs="0" name="GetBusinessHoursResult" nillable="true" type="q13:ServiceResponseOfArrayOfBusinessHour51cJB1Cc" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTableDetails">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTableDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/Reservation.Common" minOccurs="0" name="GetTableDetailsResult" nillable="true" type="q14:ServiceResponseOfArrayOfTableDetail51cJB1Cc" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBusinessHour">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dayOftheWeek" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBusinessHourResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/Reservation.Common" minOccurs="0" name="GetBusinessHourResult" nillable="true" type="q15:ServiceResponseOfBusinessHour51cJB1Cc" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

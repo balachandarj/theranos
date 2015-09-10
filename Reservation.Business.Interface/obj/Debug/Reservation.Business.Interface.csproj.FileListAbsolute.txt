@@ -1,0 +1,25 @@
+C:\Balachandar\Learnings\WPF\Reservation\Reservation.Business.Interface\bin\Debug\Reservation.Business.Interface.dll
+C:\Balachandar\Learnings\WPF\Reservation\Reservation.Business.Interface\bin\Debug\Reservation.Business.Interface.pdb
+C:\Balachandar\Learnings\WPF\Reservation\Reservation.Business.Interface\bin\Debug\Reservation.Common.dll
+C:\Balachandar\Learnings\WPF\Reservation\Reservation.Business.Interface\bin\Debug\Reservation.Common.pdb
+C:\Balachandar\Learnings\WPF\Reservation\Reservation.Business.Interface\obj\Debug\Reservation.Business.Interface.csprojResolveAssemblyReference.cache
+C:\Balachandar\Learnings\WPF\Reservation\Reservation.Business.Interface\obj\Debug\Reservation.Business.Interface.dll
+C:\Balachandar\Learnings\WPF\Reservation\Reservation.Business.Interface\obj\Debug\Reservation.Business.Interface.pdb
+C:\Users\jeganbx\Downloads\Reservation\Reservation\Reservation.Business.Interface\bin\Debug\Reservation.Business.Interface.dll
+C:\Users\jeganbx\Downloads\Reservation\Reservation\Reservation.Business.Interface\bin\Debug\Reservation.Business.Interface.pdb
+C:\Users\jeganbx\Downloads\Reservation\Reservation\Reservation.Business.Interface\bin\Debug\Reservation.Common.dll
+C:\Users\jeganbx\Downloads\Reservation\Reservation\Reservation.Business.Interface\bin\Debug\Reservation.Common.pdb
+C:\Users\jeganbx\Downloads\Reservation\Reservation\Reservation.Business.Interface\obj\Debug\Reservation.Business.Interface.csprojResolveAssemblyReference.cache
+C:\Users\jeganbx\Downloads\Reservation\Reservation\Reservation.Business.Interface\obj\Debug\Reservation.Business.Interface.dll
+C:\Users\jeganbx\Downloads\Reservation\Reservation\Reservation.Business.Interface\obj\Debug\Reservation.Business.Interface.pdb
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Business.Interface\bin\Debug\Reservation.Business.Interface.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Business.Interface\bin\Debug\Reservation.Business.Interface.pdb
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Business.Interface\bin\Debug\nunit.core.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Business.Interface\bin\Debug\nunit.core.interfaces.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Business.Interface\bin\Debug\nunit.util.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Business.Interface\bin\Debug\NUnit.VisualStudio.TestAdapter.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Business.Interface\bin\Debug\Reservation.Common.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Business.Interface\bin\Debug\Reservation.Common.pdb
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Business.Interface\obj\Debug\Reservation.Business.Interface.csprojResolveAssemblyReference.cache
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Business.Interface\obj\Debug\Reservation.Business.Interface.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Business.Interface\obj\Debug\Reservation.Business.Interface.pdb

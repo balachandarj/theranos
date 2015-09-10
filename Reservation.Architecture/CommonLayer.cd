@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Reservation.Common.BookingDetail">
+    <Position X="0.5" Y="1" Width="2" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="CustomerDetail" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Reservation.Common.BusinessHour">
+    <Position X="3.25" Y="3.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Reservation.Common.Person">
+    <Position X="3" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Reservation.Common.ServiceResponse&lt;T&gt;">
+    <Position X="0.5" Y="3.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Reservation.Common.TableDetail">
+    <Position X="5.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Reservation.Common.TableAvailablityDetail">
+    <Position X="5.25" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Dependency.Common.DependencyFactory">
+    <Position X="7.75" Y="3.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

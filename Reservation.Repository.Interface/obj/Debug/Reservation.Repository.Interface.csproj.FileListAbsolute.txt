@@ -1,0 +1,7 @@
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository.Interface\bin\Debug\Reservation.Repository.Interface.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository.Interface\bin\Debug\Reservation.Repository.Interface.pdb
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository.Interface\bin\Debug\Reservation.Common.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository.Interface\bin\Debug\Reservation.Common.pdb
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository.Interface\obj\Debug\Reservation.Repository.Interface.csprojResolveAssemblyReference.cache
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository.Interface\obj\Debug\Reservation.Repository.Interface.dll
+C:\Balachandar\Learnings\WPF\Reservation -02Sep\Reservation\Reservation\Reservation.Repository.Interface\obj\Debug\Reservation.Repository.Interface.pdb
